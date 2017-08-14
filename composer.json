@@ -1,0 +1,24 @@
+{
+    "name": "lukasjankowski/laravel-revision",
+    "description": "A laravel 5 revision package for watching changes with multi guard support",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukas Jankowski",
+            "email": "LukasJankowski@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LukasJankowski\\Revision\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LukasJankowski\\Revision\\RevisionServiceProvider"
+            ]
+        }
+    }
+}
