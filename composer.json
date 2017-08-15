@@ -3,6 +3,7 @@
     "description": "A laravel 5 revision package for watching changes with multi guard support",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Lukas Jankowski",
