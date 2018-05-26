@@ -34,7 +34,7 @@ trait HasRevisions
     {
         return isset($this->revisionExclude)
             ? $this->revisionExclude
-            : config('revision.default_exclude', []);
+            : config('revisions.default_exclude', []);
     }
 
     /**
